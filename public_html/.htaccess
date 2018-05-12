@@ -1,0 +1,18 @@
+<FilesMatch "\.md5$">
+    Deny from all
+</FilesMatch>
+
+DirectoryIndex index.php
+Options -Indexes
+# Comment the following line, if option Multiviews not allowed here
+Options -MultiViews
+
+
+<ifModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [L,QSA]
+</ifModule>
+php_value default_charset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml

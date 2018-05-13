@@ -1,0 +1,27 @@
+.input__search {
+	display: block;
+	width: 100%;
+	border-radius: 12px;
+	border: 1px solid #bebebe;
+	outline: none;
+	padding: 5px 20px;
+}
+
+.label__search {
+	font-weight: bold;
+	color: #666;
+	font-size: 18px;
+}
+
+.form__select {
+	border: 2px solid #0055aa;
+	color: #0055aa;
+	padding: 2px;
+	outline: none;
+	cursor: pointer;
+}
+
+.label__period {
+	font-weight: bold;
+}
+

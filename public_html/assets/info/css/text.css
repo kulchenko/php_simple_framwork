@@ -1,0 +1,17 @@
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-big {
+	font-size: 22px;
+}
+
+@media (max-width: 768px) {
+	.text-center-ph {
+		text-align: center;
+	}
+}

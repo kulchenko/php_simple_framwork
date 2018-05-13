@@ -1,0 +1,40 @@
+.menu {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-direction: wrap;
+	flex-direction: wrap;
+	list-style: none;
+	mergin: 0;
+	padding: 0;
+	justify-content: center;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+1,f3f3f3+40,f3f3f3+40,ededed+55,f2f2f2+100 */
+	background: rgb(237,237,237); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(237,237,237,1) 1%, rgba(243,243,243,1) 40%, rgba(243,243,243,1) 40%, rgba(237,237,237,1) 55%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 1%,rgba(243,243,243,1) 40%,rgba(243,243,243,1) 40%,rgba(237,237,237,1) 55%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(237,237,237,1) 1%,rgba(243,243,243,1) 40%,rgba(243,243,243,1) 40%,rgba(237,237,237,1) 55%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+
+	border: 1px solid #e4e4e4;
+
+    overflow: hidden;
+    border-radius: 25px;
+    
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);	
+}
+
+.menu__link {
+	display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.menu__link:hover {
+	background-color: #ddd;
+    color: black;
+}

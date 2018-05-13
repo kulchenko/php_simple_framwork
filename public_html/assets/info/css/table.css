@@ -1,0 +1,26 @@
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table tr {
+	margin: 0;
+}
+
+.table th {
+	font-weight: bold;
+	font-size: 22px;
+	color: #0055aa;
+}
+
+.table th,
+.table td {
+	border: 2px solid #0055aa;
+	padding: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.table td {
+	font-size: 18px;
+}

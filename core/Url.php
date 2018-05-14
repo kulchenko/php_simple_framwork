@@ -10,15 +10,15 @@ namespace core;
 
 defined('EXECUTE') or die();
 
-class Url {
+class Url implements IUrl {
     
-    public static function getPath()
+    public function getPath()
     {
         return ltrim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
     }
     
-    public static function getPathList()
+    public function getArrayPath()
     {
-        return explode('/', self::getPath());
+        return explode('/', $this->getPath());
     }
 }

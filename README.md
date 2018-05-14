@@ -25,7 +25,8 @@
 - View - Класс формирует и выводит контент.
 
 ## Связи
-- App (Bootstrap, Url)
+- App (Bootstrap, Url, BuildController)
+- BuildController (Url)
 - Controller (View)
 
 ## Список задач
